@@ -1,0 +1,32 @@
+.tabsbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.active-tab {
+  font-size: 20px;
+  background-color: royalblue;
+  transition-duration: 0.3s;
+}
+
+.deactive-tab {
+  font-size: 15px;
+  background-color: rgb(173, 173, 173);
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.deactive-tab:hover {
+  background-color: royalblue;
+  transform: scale(1.03);
+}
+
+.tab {
+  padding: 20px 5%;
+  border: 0;
+  outline: 0;
+  color: white;
+  font-weight: bold;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}

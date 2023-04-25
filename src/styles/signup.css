@@ -1,0 +1,24 @@
+.signup-wrapper {
+  margin: 20px;
+  visibility: hidden;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  transform: translate(0, -250px);
+  transition-duration: 0.3s;
+}
+
+.signup-active {
+  visibility: visible;
+  transform: translate(0, -250px) scale(1);
+  opacity: 1;
+}
+.signup-deactive {
+  transform: translate(0, -250px) scale(1.2);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.signup-wrapper form {
+  width: 100%;
+}

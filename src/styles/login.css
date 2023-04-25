@@ -1,0 +1,21 @@
+.login-wrapper {
+  margin: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  transition-duration: 0.3s;
+}
+.login-active {
+  visibility: visible;
+  transform: scale(1);
+  opacity: 1;
+}
+.login-deactive {
+  transform: scale(1.2);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.login-wrapper form {
+  width: 100%;
+}

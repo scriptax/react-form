@@ -1,0 +1,8 @@
+.modal {
+  width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 2px 5px #ffffff6b;
+  border-radius: 2px;
+  background-color: white;
+  transition: height 0.3s;
+}

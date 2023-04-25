@@ -1,0 +1,11 @@
+.checkmark {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  display: block;
+  width: 15px;
+  height: 9px;
+  border: solid green;
+  border-width: 3px 3px 0 0;
+  transform: rotateZ(135deg);
+}
